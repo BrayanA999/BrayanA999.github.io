@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+
+  <rect width="500" height="300" fill="#F8F5E6" />
+
+  <!-- Dumbbell -->
+  <g fill="#145A20">
+    <rect x="65" y="105" width="370" height="25" rx="8" />
+    <rect x="65" y="80" width="22" height="75" rx="6" />
+    <rect x="95" y="60" width="30" height="115" rx="8" />
+    <rect x="375" y="60" width="30" height="115" rx="8" />
+    <rect x="413" y="80" width="22" height="75" rx="6" />
+  </g>
+
+  <!-- Heart -->
+  <path d="M250 180
+           C225 155 170 125 170 90
+           C170 45 225 40 250 75
+           C275 40 330 45 330 90
+           C330 125 275 155 250 180 Z" fill="#F8F5E6" stroke="#145A20" stroke-width="9" />
+
+  <!-- Heartbeat -->
+  <polyline points="180,110 215,110 230,85
+                    250,140 270,95 285,110 320,110" fill="none" stroke="#145A20" stroke-width="7" stroke-linejoin="round" />
+
+  <!-- Leaves -->
+  <path d="M250 55 Q190 45 195 5
+           Q250 5 250 55" fill="#8BC34A" />
+  <path d="M255 55 Q260 0 320 5
+           Q310 55 255 55" fill="#2E7D32" />
+
+  <!-- Website Name -->
+  <text x="250" y="230" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" font-style="italic" text-anchor="middle" fill="#145A20">
+    Healthy Eats
+  </text>
+
+  <!-- Tagline -->
+  <text x="250" y="260" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle" fill="#2E7D32">
+    Nutrition • Fitness • Budget Living
+  </text>
+
+  <path d="M100 275 Q250 300 400 275" fill="none" stroke="#2E7D32" stroke-width="5" />
+
+</svg>
