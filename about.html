@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eats | The Logo</title>
+    <style>
+        body {
+            background-color: #FCFBF7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #145A20;
+        }
+
+        nav {
+            background-color: #145A20;
+            padding: 15px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        nav a {
+            color: #F8F5E6;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #8BC34A;
+        }
+
+        .logo-svg {
+            width: 50%;
+            display: block;
+            margin: 30px auto;
+            border-radius: 12px;
+        }
+
+        .about-section {
+            width: 75%;
+            margin: 30px auto 50px auto;
+            background-color: #F8F5E6;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #2E7D32;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
+
+        .about-section h2 {
+            color: #145A20;
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .about-section h3 {
+            color: #2E7D32;
+            margin-top: 25px;
+            font-size: 22px;
+        }
+
+        .about-section p {
+            font-size: 16px;
+            color: #1B3B20;
+        }
+
+        .logo-breakdown {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0 0 0;
+        }
+
+        .logo-breakdown li {
+            background-color: #FFFFFF;
+            border-left: 5px solid #2E7D32;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            color: #1B3B20;
+        }
+
+        .logo-breakdown li.leaf-item {
+            border-left-color: #8BC34A;
+        }
+
+        .logo-breakdown strong {
+            color: #145A20;
+        }
+    </style>
+    <link rel="stylesheet" href="group3.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="breakfast.html">Breakfast Ideas</a>
+    <a href="lunch-dinner.html">Recipes</a>
+    <a href="budget.html">Budget Tips</a>
+    <a href="fitness.html">Fitness &amp; Wellness</a>
+</nav>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 300"
+     class="logo-svg">
+
+  <rect width="500" height="300" fill="#F8F5E6"/>
+
+  <!-- Dumbbell -->
+  <g fill="#145A20">
+    <rect x="65" y="105" width="370" height="25" rx="8"/>
+    <rect x="65" y="80" width="22" height="75" rx="6"/>
+    <rect x="95" y="60" width="30" height="115" rx="8"/>
+    <rect x="375" y="60" width="30" height="115" rx="8"/>
+    <rect x="413" y="80" width="22" height="75" rx="6"/>
+  </g>
+
+  <!-- Heart -->
+  <path d="M250 180
+           C225 155 170 125 170 90
+           C170 45 225 40 250 75
+           C275 40 330 45 330 90
+           C330 125 275 155 250 180 Z"
+        fill="#F8F5E6"
+        stroke="#145A20"
+        stroke-width="9"/>
+
+  <!-- Heartbeat -->
+  <polyline points="180,110 215,110 230,85
+                    250,140 270,95 285,110 320,110"
+            fill="none"
+            stroke="#145A20"
+            stroke-width="7"
+            stroke-linejoin="round"/>
+
+  <!-- Leaves -->
+  <path d="M250 55 Q190 45 195 5
+           Q250 5 250 55"
+        fill="#8BC34A"/>
+  <path d="M255 55 Q260 0 320 5
+           Q310 55 255 55"
+        fill="#2E7D32"/>
+
+  <!-- Website Name -->
+  <text x="250" y="230"
+        font-family="Arial"
+        font-size="48"
+        font-weight="bold"
+        font-style="italic"
+        text-anchor="middle"
+        fill="#145A20">
+    Healthy Eats
+  </text>
+
+  <!-- Tagline -->
+  <text x="250" y="260"
+        font-family="Arial"
+        font-size="17"
+        text-anchor="middle"
+        fill="#2E7D32">
+    Nutrition • Fitness • Budget Living
+  </text>
+
+  <path d="M100 275 Q250 300 400 275"
+        fill="none"
+        stroke="#2E7D32"
+        stroke-width="5"/>
+
+</svg>
+
+<section class="about-section">
+    <h2>About Healthy Eats</h2>
+    <p>
+        At Healthy Eats, we believe taking care of your body shouldn't require a gourmet budget or a complicated fitness routine. Our mission is to make nutritious meals, practical workouts, and smart grocery shopping accessible to everyone—proving that living well is both simple and affordable.
+    </p>
+
+    <h3>What Our Logo Represents</h3>
+    <ul class="logo-breakdown">
+        <li>
+            <strong>The Barbell:</strong> Represents physical strength, movement, and consistency. Whether you are lifting weights at the gym or staying active at home, fitness is the foundation of a capable, energized body.
+        </li>
+        <li>
+            <strong>The Heart &amp; Pulse:</strong> Symbolizes cardiovascular health, vitality, and genuine care for your long-term well-being. The steady heartbeat line reflects the rhythm of sustainable daily habits rather than quick fixes.
+        </li>
+        <li class="leaf-item">
+            <strong>The Apple Leaves:</strong> Crowning the heart like the stem and leaves of a fresh apple, these represent clean, whole-food nutrition and natural energy—reminding us that good health starts with what we put on our plate.
+        </li>
+    </ul>
+</section>
+<footer>
+<p><center>2026 &copy; Healthy Eats | Logo and Webpage created by Donovan Malone</center></p>
+</footer>
+</body>
+</html>

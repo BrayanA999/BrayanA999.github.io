@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthy Eats | Home</title>
+    <style>
+     body {
+    background-color: #F6C27A;
+    color: #123B22;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    color: #123B22;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+header h3 {
+    text-align: center;
+    color: #B56B25;
+}
+
+header p {
+    text-align: center;
+}
+
+nav {
+    background-color: #123B22;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #F6C27A;
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+    color: #123B22;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    color: #123B22;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: left;
+    color: #123B22;
+    font-size: 28px;
+}
+
+h3 {
+    text-align: left;
+    color: #123B22;
+    font-size: 22px;
+}
+
+.hero {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.hero img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+.hero p {
+    text-align: center;
+    max-width: 850px;
+    margin: auto;
+    padding: 10px 25px;
+}
+
+.explore {
+    background-color: #F6C27A;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.explore h2 {
+    text-align: center;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.meal-card {
+    background-color: white;
+    width: 230px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.meal-card img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+
+.meal-card h3 {
+    text-align: center;
+}
+
+.meal-card p {
+    text-align: center;
+    padding: 0 12px;
+}
+
+.meal-card a,
+.budget-section a {
+    display: inline-block;
+    background-color: #123B22;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.meal-card a:hover,
+.budget-section a:hover {
+    background-color: #B56B25;
+}
+
+.healthy-habits {
+    background-color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.healthy-habits h2 {
+    text-align: center;
+}
+
+.habit-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.habit-list div {
+    background-color: #FFF5E6;
+    padding: 20px;
+    width: 220px;
+    border-left: 5px solid #123B22;
+    border-radius: 8px;
+}
+
+.habit-list h3 {
+    text-align: center;
+}
+
+.quick-start {
+    background-color: #F6C27A;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.quick-start h2 {
+    text-align: center;
+}
+
+.quick-start img {
+    width: 80%;
+    max-width: 850px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quick-start p {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.budget-section {
+    background-color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.budget-section h2 {
+    text-align: center;
+}
+
+.budget-section p {
+    max-width: 850px;
+    margin: 15px auto 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: #123B22;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #F6C27A;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+<link rel="stylesheet" href="group3.css">
+</head>
+
+<body>
+
+<header>
+    <h1><i><u>Healthy Eats</u></i></h1>
+    <h3>Good Food. Better Habits. Healthier Living.</h3>
+    <p>Simple ways to eat well, stay active, and feel your best.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="breakfast.html">Breakfast Ideas</a>
+    <a href="lunch-dinner.html">Recipes</a>
+    <a href="budget.html">Budget Tips</a>
+    <a href="fitness.html">Fitness & Wellness</a>
+</nav>
+
+<section class="hero">
+    <center><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1400" alt="Healthy meal with fresh fruits and vegetables"></center>
+
+    <h2>Welcome to Healthy Eats!</h2>
+
+    <p>
+        Eating healthy does not have to be expensive or complicated.
+        Healthy Eats is here to help you discover affordable meals,
+        build better habits, and find simple ways to improve your
+        overall wellness. Whether you are starting your fitness
+        journey or simply looking for healthier food options, we
+        are here to help!
+    </p>
+</section>
+
+<section class="explore">
+    <h2>Explore Healthy Living</h2>
+    <p>Find inspiration for your everyday health and wellness journey.</p>
+
+    <div class="meal-container">
+
+        <div class="meal-card">
+            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800" alt="Healthy breakfast">
+            <h3>Breakfast Ideas</h3>
+            <p>Start your morning with easy, nutritious, and satisfying meals.</p>
+            <a href="breakfast.html">Explore Breakfast</a>
+        </div>
+
+        <div class="meal-card">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800" alt="Healthy lunch salad">
+            <h3>Lunch & Dinner</h3>
+            <p>Discover delicious meals that make healthy eating enjoyable.</p>
+            <a href="lunch-dinner.html">Explore Meals</a>
+        </div>
+
+        <div class="meal-card">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800" alt="Person exercising">
+            <h3>Fitness</h3>
+            <p>Learn about movement, exercise, and create a balanced lifestyle.</p>
+            <a href="fitness.html">Explore Fitness</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="healthy-habits">
+    <h2>Small Habits, Big Changes</h2>
+
+    <div class="habit-list">
+        <div>
+            <h3>Stay Hydrated</h3>
+            <p>Drink water throughout the day to support your body.</p>
+        </div>
+
+        <div>
+            <h3>Eat Balanced Meals</h3>
+            <p>Include fruits, vegetables, protein, and whole grains.</p>
+        </div>
+
+        <div>
+            <h3>Stay Active</h3>
+            <p>Find activities you enjoy and make movement part of your routine.</p>
+        </div>
+    </div>
+</section>
+
+<section class="quick-start">
+    <h2>Not Sure Where to Start?</h2>
+
+    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000" alt="Fresh healthy ingredients">
+
+    <p>
+        Start with one small change. Try a new healthy recipe,
+        drink more water, or take a short walk. Healthy living
+        is about progress, not perfection!
+    </p>
+</section>
+
+<section class="budget-section">
+    <h2>Healthy Eating on a Budget</h2>
+
+    <p>
+        Eating nutritious foods does not mean spending a lot of money.
+        Planning meals, shopping for seasonal produce, buying affordable
+        protein, and preparing meals at home can help you save money
+        while reaching your wellness goals.
+    </p>
+
+    <a href="budget.html">Discover Budget-Friendly Tips</a>
+</section>
+
+<footer>
+    <h2>Healthy Eats</h2>
+    <p>Good Food. Better Habits. Healthier Living.</p>
+
+    <p>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+    </p>
+    <p>&copy; 2026 Healthy Eats. All Rights Reserved. | Webpage created by Daliyah Germain-Cornelius</p>
+</footer>
+
+</body>
+</html>
